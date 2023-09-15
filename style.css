@@ -1,0 +1,102 @@
+body{
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  width: 1440px;
+  display: grid;
+  place-items: center;
+}
+.whole-thing{
+  background-color: white ;
+  width: fit-content;
+  margin-top: 0px;
+  border-radius: 15px 15px 15px 15px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.top-pic{
+  border-radius: 15px 15px 0px 0px;
+  width: 400px;
+}
+.order-summary{
+  font-family: Red Hat Display;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 21px;
+  font-weight: bolder;
+}
+.more-text{
+  font-family: Red Hat Display;
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+}
+.plan{
+  display: flex;
+  column-gap: 20px;
+  background-color: hsla(224, 23%, 55%,0.1);
+  border-radius: 20px;
+  height: 90px;
+  width: 350px;
+  margin-left: 23px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.plan-icon{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.plan-price{
+  margin-top: 12px;
+  line-height: 22px;
+  font-family: Red Hat Display;
+
+}
+.the-price{
+  color: grey;
+}
+.link{
+  margin-top: 38px;
+  margin-left: 70px;
+  font-family: Red Hat Display;
+  font-size: 14px;
+  font-weight: bold;
+}
+.top-button{
+  margin-left: 30px;
+  width: 350px;
+  height: 45px;
+  color: white;
+  font-family: Red Hat Display;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 12px;
+  border: 0px;
+  box-shadow: 0px 8px 7px hsla(245, 75%, 52%,0.2);
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+.bottom-button{
+  margin-left: 150px;
+  font-family: Red Hat Display;
+  border: 0px;
+  background-color: white;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  color: grey;
+}
+.top-button:hover{
+  background-color: hsla(245, 75%, 52%, 0.7);
+  cursor: pointer;
+}
+.bottom-button:hover{
+  cursor: pointer;
+  color: black;
+}
+.the-link{
+  color: hsl(245, 75%, 52%);
+}
+.the-link:hover{
+  color: hsla(245, 75%, 52%, 0.7);
+  text-decoration: none;
+}
